@@ -1,55 +1,23 @@
-h2:hover {
-    color: red;
+body {
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
+    text-transform: uppercase;
+    text-align: justify;
 }
 
-h2[class=subtitle] {
-    color: blue;
+#title {
+    color: rgb(186, 133, 9);
 }
 
 .subtitle {
-    color: blue;
+    color: rgb(200, 148, 30);
 }
 
-#services {
-    color: green;
+#service-image {
+    height: 400px;
+    width: 70vw;
+    background: radial-gradient(circle, red 20%, blue 40%, green 50%);
 }
 
-/* li:only-child {
-    color: purple;
-} */
-
-td:only-child {
-    color: purple;
-}
-
-/* #google-link:link {
-    color: blue;
-}
-
-#google-link:visited {
-    color: red;
-} */
-
-h2 + a {
-    color: red;
-}
-
-textarea ~ button {
-    color: purple;
-}
-
-ul > li {
-    color: blue;
-}
-
-ul li {
-    color: green;
-}
-
-img[src*="../img/"] {
-    border: 10px solid black;
-}
-
-h2[class~="article-subtitle"] {
-    background-color: green;
+.link {
+    text-decoration: underline;
 }
